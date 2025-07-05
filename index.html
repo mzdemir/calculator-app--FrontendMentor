@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Frontend Mentor | Calculator app</title>
+
+		<script src="https://cdn.jsdelivr.net/npm/mathjs@13/lib/browser/math.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1 class="title">calc</h1>
+				<div class="theme-container">
+					<p class="theme">THEME</p>
+					<div class="theme-options">
+						<div class="labels">
+							<label for="theme-1">1</label>
+							<label for="theme-2">2</label>
+							<label for="theme-3">3</label>
+						</div>
+						<div class="theme-toggle">
+							<input type="radio" id="theme-1" name="theme" value="1" checked />
+							<input type="radio" id="theme-2" name="theme" value="2" />
+							<input type="radio" id="theme-3" name="theme" value="3" />
+							<div class="toggle-button"></div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="calc-container">
+				<h2 class="result" aria-live="polite"></h2>
+				<div class="key-container"></div>
+			</section>
+		</div>
+		<script src="index.js" type="module"></script>
+	</body>
+</html>
