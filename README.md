@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://www.frontendmentor.io/solutions/calculator-app-IQ2SL3AAoB
+- Live Site URL: https://mzdemir-calculator-app.netlify.app/
 
 ### Built with
 
